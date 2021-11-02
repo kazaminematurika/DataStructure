@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/cliongongzuodian/Weed9_H_Test/Thread.h
+iostream
+-
+
+C:/cliongongzuodian/Weed9_Test/main.cpp
+cstddef
+-
+iostream
+-
+../Weed9_H_Test/Thread.h
+C:/cliongongzuodian/Weed9_H_Test/Thread.h
+

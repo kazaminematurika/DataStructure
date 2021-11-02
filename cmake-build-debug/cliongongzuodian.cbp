@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cliongongzuodian"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cliongongzuodian">
+				<Option output="C:/cliongongzuodian/cmake-build-debug/libcliongongzuodian.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cliongongzuodian/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 cliongongzuodian"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cliongongzuodian/fast">
+				<Option output="C:/cliongongzuodian/cmake-build-debug/libcliongongzuodian.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cliongongzuodian/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 cliongongzuodian/fast"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_1">
+				<Option output="C:/cliongongzuodian/cmake-build-debug/Test_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_1"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_1/fast">
+				<Option output="C:/cliongongzuodian/cmake-build-debug/Test_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_1/fast"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WeedTest">
+				<Option output="C:/cliongongzuodian/cmake-build-debug/WeedTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cliongongzuodian/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 WeedTest"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WeedTest/fast">
+				<Option output="C:/cliongongzuodian/cmake-build-debug/WeedTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cliongongzuodian/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 WeedTest/fast"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_2">
+				<Option output="C:/cliongongzuodian/cmake-build-debug/Test_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_2"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_2/fast">
+				<Option output="C:/cliongongzuodian/cmake-build-debug/Test_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_2/fast"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_3">
+				<Option output="C:/cliongongzuodian/cmake-build-debug/Test_3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_3"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_3/fast">
+				<Option output="C:/cliongongzuodian/cmake-build-debug/Test_3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_3/fast"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="huffman">
+				<Option output="C:/cliongongzuodian/cmake-build-debug/huffman.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 huffman"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="huffman/fast">
+				<Option output="C:/cliongongzuodian/cmake-build-debug/huffman.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 huffman/fast"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_4">
+				<Option output="C:/cliongongzuodian/cmake-build-debug/Test_4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_4"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_4/fast">
+				<Option output="C:/cliongongzuodian/cmake-build-debug/Test_4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_4/fast"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/cliongongzuodian/Weed1_Test/Test_1.cpp">
+			<Option target="Test_1"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed1_Test/Test_2.cpp">
+			<Option target="Test_2"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed1_Test/Test_3.cpp">
+			<Option target="Test_3"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed2_H_Test/arraylist.cpp">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed2_H_Test/arraylist.h">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed2_Test/main.cpp">
+			<Option target="WeedTest"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed3_H_Test/linkedlist.cpp">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed3_H_Test/linkedlist.h">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed3_Test/main.cpp">
+			<Option target="WeedTest"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed4_H_Test/LinkStack.cpp">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed4_H_Test/LinkStack.h">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed4_H_Test/SqStack.cpp">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed4_H_Test/SqStack.h">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed4_Test/main.cpp">
+			<Option target="WeedTest"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed5_H_Test/LinkQueue.cpp">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed5_H_Test/LinkQueue.h">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed5_H_Test/LinkStack.cpp">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed5_H_Test/LinkStack.h">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed5_H_Test/SqQueue.cpp">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed5_H_Test/SqQueue.h">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed5_H_Test/SqStack.cpp">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed5_H_Test/SqStack.h">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed5_Test/main.cpp">
+			<Option target="WeedTest"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed7_H_Test/BiTree.cpp">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed7_H_Test/BiTree.h">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed7_Test/main.cpp">
+			<Option target="WeedTest"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed8_H_Test/BiThree8.cpp">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed8_H_Test/BiThree8.h">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed8_Test/main.cpp">
+			<Option target="WeedTest"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed9_2_Test/huffman.cpp">
+			<Option target="huffman"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed9_H_Test/Thread.cpp">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed9_H_Test/Thread.h">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed9_Test/main.cpp">
+			<Option target="WeedTest"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/main_Test/Test_4.cpp">
+			<Option target="Test_4"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

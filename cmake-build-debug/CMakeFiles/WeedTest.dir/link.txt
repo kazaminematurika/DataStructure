@@ -1,0 +1,3 @@
+"C:\clionanzhuangchu\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\WeedTest.dir/objects.a
+C:\gccanfangdian\bin\ar.exe cr CMakeFiles\WeedTest.dir/objects.a @CMakeFiles\WeedTest.dir\objects1.rsp
+C:\gccanfangdian\bin\g++.exe  -Wall -fexec-charset=GBK -g -Wl,--whole-archive CMakeFiles\WeedTest.dir/objects.a -Wl,--no-whole-archive -o WeedTest.exe -Wl,--out-implib,libWeedTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\WeedTest.dir\linklibs.rsp

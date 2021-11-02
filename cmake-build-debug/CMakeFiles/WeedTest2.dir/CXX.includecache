@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/cliongongzuodian/Weed2_H_Test/arraylist.h
+iostream
+-
+
+C:/cliongongzuodian/Weed2_Test/main.cpp
+../Weed2_H_Test/arraylist.h
+C:/cliongongzuodian/Weed2_H_Test/arraylist.h
+

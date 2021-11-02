@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/cliongongzuodian/Weed2_H_Test/AAA.h
+iostream
+-
+
+C:/cliongongzuodian/Weed2_Test/main.cpp
+../Weed2_H_Test/AAA.h
+C:/cliongongzuodian/Weed2_H_Test/AAA.h
+
