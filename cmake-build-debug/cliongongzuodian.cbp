@@ -350,6 +350,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/cliongongzuodian/Weed10_H_Test/graph.cpp">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed10_H_Test/graph.h">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed10_Test/main.cpp">
+			<Option target="WeedTest"/>
+		</Unit>
 		<Unit filename="C:/cliongongzuodian/Weed1_Test/Test_1.cpp">
 			<Option target="Test_1"/>
 		</Unit>

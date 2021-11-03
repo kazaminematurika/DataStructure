@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/cliongongzuodian.dir/Weed10_H_Test/graph.cpp.obj"
   "CMakeFiles/cliongongzuodian.dir/Weed2_H_Test/arraylist.cpp.obj"
   "CMakeFiles/cliongongzuodian.dir/Weed3_H_Test/linkedlist.cpp.obj"
   "CMakeFiles/cliongongzuodian.dir/Weed4_H_Test/LinkStack.cpp.obj"

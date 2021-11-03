@@ -219,6 +219,60 @@ Test_4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_4.dir\build.make CMakeFiles/Test_4.dir/build
 .PHONY : Test_4/fast
 
+Weed10_H_Test/graph.obj: Weed10_H_Test/graph.cpp.obj
+
+.PHONY : Weed10_H_Test/graph.obj
+
+# target to build an object file
+Weed10_H_Test/graph.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliongongzuodian.dir\build.make CMakeFiles/cliongongzuodian.dir/Weed10_H_Test/graph.cpp.obj
+.PHONY : Weed10_H_Test/graph.cpp.obj
+
+Weed10_H_Test/graph.i: Weed10_H_Test/graph.cpp.i
+
+.PHONY : Weed10_H_Test/graph.i
+
+# target to preprocess a source file
+Weed10_H_Test/graph.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliongongzuodian.dir\build.make CMakeFiles/cliongongzuodian.dir/Weed10_H_Test/graph.cpp.i
+.PHONY : Weed10_H_Test/graph.cpp.i
+
+Weed10_H_Test/graph.s: Weed10_H_Test/graph.cpp.s
+
+.PHONY : Weed10_H_Test/graph.s
+
+# target to generate assembly for a file
+Weed10_H_Test/graph.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliongongzuodian.dir\build.make CMakeFiles/cliongongzuodian.dir/Weed10_H_Test/graph.cpp.s
+.PHONY : Weed10_H_Test/graph.cpp.s
+
+Weed10_Test/main.obj: Weed10_Test/main.cpp.obj
+
+.PHONY : Weed10_Test/main.obj
+
+# target to build an object file
+Weed10_Test/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeedTest.dir\build.make CMakeFiles/WeedTest.dir/Weed10_Test/main.cpp.obj
+.PHONY : Weed10_Test/main.cpp.obj
+
+Weed10_Test/main.i: Weed10_Test/main.cpp.i
+
+.PHONY : Weed10_Test/main.i
+
+# target to preprocess a source file
+Weed10_Test/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeedTest.dir\build.make CMakeFiles/WeedTest.dir/Weed10_Test/main.cpp.i
+.PHONY : Weed10_Test/main.cpp.i
+
+Weed10_Test/main.s: Weed10_Test/main.cpp.s
+
+.PHONY : Weed10_Test/main.s
+
+# target to generate assembly for a file
+Weed10_Test/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeedTest.dir\build.make CMakeFiles/WeedTest.dir/Weed10_Test/main.cpp.s
+.PHONY : Weed10_Test/main.cpp.s
+
 Weed1_Test/Test_1.obj: Weed1_Test/Test_1.cpp.obj
 
 .PHONY : Weed1_Test/Test_1.obj
@@ -855,6 +909,12 @@ help:
 	@echo ... WeedTest
 	@echo ... cliongongzuodian
 	@echo ... huffman
+	@echo ... Weed10_H_Test/graph.obj
+	@echo ... Weed10_H_Test/graph.i
+	@echo ... Weed10_H_Test/graph.s
+	@echo ... Weed10_Test/main.obj
+	@echo ... Weed10_Test/main.i
+	@echo ... Weed10_Test/main.s
 	@echo ... Weed1_Test/Test_1.obj
 	@echo ... Weed1_Test/Test_1.i
 	@echo ... Weed1_Test/Test_1.s
