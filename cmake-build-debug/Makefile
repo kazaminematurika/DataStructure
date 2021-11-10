@@ -129,17 +129,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cliongongzuodian
+# Target rules for targets named prim
 
 # Build rule for target.
-cliongongzuodian: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cliongongzuodian
-.PHONY : cliongongzuodian
+prim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 prim
+.PHONY : prim
 
 # fast build rule for target.
-cliongongzuodian/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliongongzuodian.dir\build.make CMakeFiles/cliongongzuodian.dir/build
-.PHONY : cliongongzuodian/fast
+prim/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prim.dir\build.make CMakeFiles/prim.dir/build
+.PHONY : prim/fast
 
 #=============================================================================
 # Target rules for targets named Test_1
@@ -153,19 +153,6 @@ Test_1: cmake_check_build_system
 Test_1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_1.dir\build.make CMakeFiles/Test_1.dir/build
 .PHONY : Test_1/fast
-
-#=============================================================================
-# Target rules for targets named WeedTest
-
-# Build rule for target.
-WeedTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WeedTest
-.PHONY : WeedTest
-
-# fast build rule for target.
-WeedTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeedTest.dir\build.make CMakeFiles/WeedTest.dir/build
-.PHONY : WeedTest/fast
 
 #=============================================================================
 # Target rules for targets named Test_2
@@ -218,6 +205,71 @@ Test_4: cmake_check_build_system
 Test_4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_4.dir\build.make CMakeFiles/Test_4.dir/build
 .PHONY : Test_4/fast
+
+#=============================================================================
+# Target rules for targets named dijkstra
+
+# Build rule for target.
+dijkstra: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dijkstra
+.PHONY : dijkstra
+
+# fast build rule for target.
+dijkstra/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstra.dir\build.make CMakeFiles/dijkstra.dir/build
+.PHONY : dijkstra/fast
+
+#=============================================================================
+# Target rules for targets named kruskal
+
+# Build rule for target.
+kruskal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 kruskal
+.PHONY : kruskal
+
+# fast build rule for target.
+kruskal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kruskal.dir\build.make CMakeFiles/kruskal.dir/build
+.PHONY : kruskal/fast
+
+#=============================================================================
+# Target rules for targets named topsort
+
+# Build rule for target.
+topsort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 topsort
+.PHONY : topsort
+
+# fast build rule for target.
+topsort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\topsort.dir\build.make CMakeFiles/topsort.dir/build
+.PHONY : topsort/fast
+
+#=============================================================================
+# Target rules for targets named cliongongzuodian
+
+# Build rule for target.
+cliongongzuodian: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cliongongzuodian
+.PHONY : cliongongzuodian
+
+# fast build rule for target.
+cliongongzuodian/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliongongzuodian.dir\build.make CMakeFiles/cliongongzuodian.dir/build
+.PHONY : cliongongzuodian/fast
+
+#=============================================================================
+# Target rules for targets named WeedTest
+
+# Build rule for target.
+WeedTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WeedTest
+.PHONY : WeedTest
+
+# fast build rule for target.
+WeedTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeedTest.dir\build.make CMakeFiles/WeedTest.dir/build
+.PHONY : WeedTest/fast
 
 Weed10_H_Test/graph.obj: Weed10_H_Test/graph.cpp.obj
 
@@ -272,6 +324,114 @@ Weed10_Test/main.s: Weed10_Test/main.cpp.s
 Weed10_Test/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeedTest.dir\build.make CMakeFiles/WeedTest.dir/Weed10_Test/main.cpp.s
 .PHONY : Weed10_Test/main.cpp.s
+
+Weed11_Test/dijkstra.obj: Weed11_Test/dijkstra.cpp.obj
+
+.PHONY : Weed11_Test/dijkstra.obj
+
+# target to build an object file
+Weed11_Test/dijkstra.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstra.dir\build.make CMakeFiles/dijkstra.dir/Weed11_Test/dijkstra.cpp.obj
+.PHONY : Weed11_Test/dijkstra.cpp.obj
+
+Weed11_Test/dijkstra.i: Weed11_Test/dijkstra.cpp.i
+
+.PHONY : Weed11_Test/dijkstra.i
+
+# target to preprocess a source file
+Weed11_Test/dijkstra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstra.dir\build.make CMakeFiles/dijkstra.dir/Weed11_Test/dijkstra.cpp.i
+.PHONY : Weed11_Test/dijkstra.cpp.i
+
+Weed11_Test/dijkstra.s: Weed11_Test/dijkstra.cpp.s
+
+.PHONY : Weed11_Test/dijkstra.s
+
+# target to generate assembly for a file
+Weed11_Test/dijkstra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstra.dir\build.make CMakeFiles/dijkstra.dir/Weed11_Test/dijkstra.cpp.s
+.PHONY : Weed11_Test/dijkstra.cpp.s
+
+Weed11_Test/kruskal.obj: Weed11_Test/kruskal.cpp.obj
+
+.PHONY : Weed11_Test/kruskal.obj
+
+# target to build an object file
+Weed11_Test/kruskal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kruskal.dir\build.make CMakeFiles/kruskal.dir/Weed11_Test/kruskal.cpp.obj
+.PHONY : Weed11_Test/kruskal.cpp.obj
+
+Weed11_Test/kruskal.i: Weed11_Test/kruskal.cpp.i
+
+.PHONY : Weed11_Test/kruskal.i
+
+# target to preprocess a source file
+Weed11_Test/kruskal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kruskal.dir\build.make CMakeFiles/kruskal.dir/Weed11_Test/kruskal.cpp.i
+.PHONY : Weed11_Test/kruskal.cpp.i
+
+Weed11_Test/kruskal.s: Weed11_Test/kruskal.cpp.s
+
+.PHONY : Weed11_Test/kruskal.s
+
+# target to generate assembly for a file
+Weed11_Test/kruskal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kruskal.dir\build.make CMakeFiles/kruskal.dir/Weed11_Test/kruskal.cpp.s
+.PHONY : Weed11_Test/kruskal.cpp.s
+
+Weed11_Test/prim.obj: Weed11_Test/prim.cpp.obj
+
+.PHONY : Weed11_Test/prim.obj
+
+# target to build an object file
+Weed11_Test/prim.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prim.dir\build.make CMakeFiles/prim.dir/Weed11_Test/prim.cpp.obj
+.PHONY : Weed11_Test/prim.cpp.obj
+
+Weed11_Test/prim.i: Weed11_Test/prim.cpp.i
+
+.PHONY : Weed11_Test/prim.i
+
+# target to preprocess a source file
+Weed11_Test/prim.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prim.dir\build.make CMakeFiles/prim.dir/Weed11_Test/prim.cpp.i
+.PHONY : Weed11_Test/prim.cpp.i
+
+Weed11_Test/prim.s: Weed11_Test/prim.cpp.s
+
+.PHONY : Weed11_Test/prim.s
+
+# target to generate assembly for a file
+Weed11_Test/prim.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prim.dir\build.make CMakeFiles/prim.dir/Weed11_Test/prim.cpp.s
+.PHONY : Weed11_Test/prim.cpp.s
+
+Weed11_Test/topsort.obj: Weed11_Test/topsort.cpp.obj
+
+.PHONY : Weed11_Test/topsort.obj
+
+# target to build an object file
+Weed11_Test/topsort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\topsort.dir\build.make CMakeFiles/topsort.dir/Weed11_Test/topsort.cpp.obj
+.PHONY : Weed11_Test/topsort.cpp.obj
+
+Weed11_Test/topsort.i: Weed11_Test/topsort.cpp.i
+
+.PHONY : Weed11_Test/topsort.i
+
+# target to preprocess a source file
+Weed11_Test/topsort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\topsort.dir\build.make CMakeFiles/topsort.dir/Weed11_Test/topsort.cpp.i
+.PHONY : Weed11_Test/topsort.cpp.i
+
+Weed11_Test/topsort.s: Weed11_Test/topsort.cpp.s
+
+.PHONY : Weed11_Test/topsort.s
+
+# target to generate assembly for a file
+Weed11_Test/topsort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\topsort.dir\build.make CMakeFiles/topsort.dir/Weed11_Test/topsort.cpp.s
+.PHONY : Weed11_Test/topsort.cpp.s
 
 Weed1_Test/Test_1.obj: Weed1_Test/Test_1.cpp.obj
 
@@ -908,13 +1068,29 @@ help:
 	@echo ... Test_4
 	@echo ... WeedTest
 	@echo ... cliongongzuodian
+	@echo ... dijkstra
 	@echo ... huffman
+	@echo ... kruskal
+	@echo ... prim
+	@echo ... topsort
 	@echo ... Weed10_H_Test/graph.obj
 	@echo ... Weed10_H_Test/graph.i
 	@echo ... Weed10_H_Test/graph.s
 	@echo ... Weed10_Test/main.obj
 	@echo ... Weed10_Test/main.i
 	@echo ... Weed10_Test/main.s
+	@echo ... Weed11_Test/dijkstra.obj
+	@echo ... Weed11_Test/dijkstra.i
+	@echo ... Weed11_Test/dijkstra.s
+	@echo ... Weed11_Test/kruskal.obj
+	@echo ... Weed11_Test/kruskal.i
+	@echo ... Weed11_Test/kruskal.s
+	@echo ... Weed11_Test/prim.obj
+	@echo ... Weed11_Test/prim.i
+	@echo ... Weed11_Test/prim.s
+	@echo ... Weed11_Test/topsort.obj
+	@echo ... Weed11_Test/topsort.i
+	@echo ... Weed11_Test/topsort.s
 	@echo ... Weed1_Test/Test_1.obj
 	@echo ... Weed1_Test/Test_1.i
 	@echo ... Weed1_Test/Test_1.s

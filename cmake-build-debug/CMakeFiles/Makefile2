@@ -71,13 +71,17 @@ CMAKE_BINARY_DIR = C:\cliongongzuodian\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/cliongongzuodian.dir/all
+all: CMakeFiles/prim.dir/all
 all: CMakeFiles/Test_1.dir/all
-all: CMakeFiles/WeedTest.dir/all
 all: CMakeFiles/Test_2.dir/all
 all: CMakeFiles/Test_3.dir/all
 all: CMakeFiles/huffman.dir/all
 all: CMakeFiles/Test_4.dir/all
+all: CMakeFiles/dijkstra.dir/all
+all: CMakeFiles/kruskal.dir/all
+all: CMakeFiles/topsort.dir/all
+all: CMakeFiles/cliongongzuodian.dir/all
+all: CMakeFiles/WeedTest.dir/all
 
 .PHONY : all
 
@@ -87,42 +91,46 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/cliongongzuodian.dir/clean
+clean: CMakeFiles/prim.dir/clean
 clean: CMakeFiles/Test_1.dir/clean
-clean: CMakeFiles/WeedTest.dir/clean
 clean: CMakeFiles/Test_2.dir/clean
 clean: CMakeFiles/Test_3.dir/clean
 clean: CMakeFiles/huffman.dir/clean
 clean: CMakeFiles/Test_4.dir/clean
+clean: CMakeFiles/dijkstra.dir/clean
+clean: CMakeFiles/kruskal.dir/clean
+clean: CMakeFiles/topsort.dir/clean
+clean: CMakeFiles/cliongongzuodian.dir/clean
+clean: CMakeFiles/WeedTest.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/cliongongzuodian.dir
+# Target rules for target CMakeFiles/prim.dir
 
 # All Build rule for target.
-CMakeFiles/cliongongzuodian.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliongongzuodian.dir\build.make CMakeFiles/cliongongzuodian.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliongongzuodian.dir\build.make CMakeFiles/cliongongzuodian.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=18,19,20,21,22,23,24,25,26,27,28,29,30 "Built target cliongongzuodian"
-.PHONY : CMakeFiles/cliongongzuodian.dir/all
+CMakeFiles/prim.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prim.dir\build.make CMakeFiles/prim.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prim.dir\build.make CMakeFiles/prim.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target prim"
+.PHONY : CMakeFiles/prim.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cliongongzuodian.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\cliongongzuodian\cmake-build-debug\CMakeFiles 13
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/cliongongzuodian.dir/all
+CMakeFiles/prim.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cliongongzuodian\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/prim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\cliongongzuodian\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/cliongongzuodian.dir/rule
+.PHONY : CMakeFiles/prim.dir/rule
 
 # Convenience name for target.
-cliongongzuodian: CMakeFiles/cliongongzuodian.dir/rule
+prim: CMakeFiles/prim.dir/rule
 
-.PHONY : cliongongzuodian
+.PHONY : prim
 
 # clean rule for target.
-CMakeFiles/cliongongzuodian.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliongongzuodian.dir\build.make CMakeFiles/cliongongzuodian.dir/clean
-.PHONY : CMakeFiles/cliongongzuodian.dir/clean
+CMakeFiles/prim.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prim.dir\build.make CMakeFiles/prim.dir/clean
+.PHONY : CMakeFiles/prim.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Test_1.dir
@@ -150,33 +158,6 @@ Test_1: CMakeFiles/Test_1.dir/rule
 CMakeFiles/Test_1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_1.dir\build.make CMakeFiles/Test_1.dir/clean
 .PHONY : CMakeFiles/Test_1.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/WeedTest.dir
-
-# All Build rule for target.
-CMakeFiles/WeedTest.dir/all: CMakeFiles/cliongongzuodian.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeedTest.dir\build.make CMakeFiles/WeedTest.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeedTest.dir\build.make CMakeFiles/WeedTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17 "Built target WeedTest"
-.PHONY : CMakeFiles/WeedTest.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/WeedTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\cliongongzuodian\cmake-build-debug\CMakeFiles 22
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/WeedTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\cliongongzuodian\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/WeedTest.dir/rule
-
-# Convenience name for target.
-WeedTest: CMakeFiles/WeedTest.dir/rule
-
-.PHONY : WeedTest
-
-# clean rule for target.
-CMakeFiles/WeedTest.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeedTest.dir\build.make CMakeFiles/WeedTest.dir/clean
-.PHONY : CMakeFiles/WeedTest.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Test_2.dir
@@ -239,7 +220,7 @@ CMakeFiles/Test_3.dir/clean:
 CMakeFiles/huffman.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\huffman.dir\build.make CMakeFiles/huffman.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\huffman.dir\build.make CMakeFiles/huffman.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target huffman"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target huffman"
 .PHONY : CMakeFiles/huffman.dir/all
 
 # Build rule for subdir invocation for target.
@@ -285,6 +266,141 @@ Test_4: CMakeFiles/Test_4.dir/rule
 CMakeFiles/Test_4.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_4.dir\build.make CMakeFiles/Test_4.dir/clean
 .PHONY : CMakeFiles/Test_4.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/dijkstra.dir
+
+# All Build rule for target.
+CMakeFiles/dijkstra.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstra.dir\build.make CMakeFiles/dijkstra.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstra.dir\build.make CMakeFiles/dijkstra.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target dijkstra"
+.PHONY : CMakeFiles/dijkstra.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/dijkstra.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cliongongzuodian\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/dijkstra.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cliongongzuodian\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/dijkstra.dir/rule
+
+# Convenience name for target.
+dijkstra: CMakeFiles/dijkstra.dir/rule
+
+.PHONY : dijkstra
+
+# clean rule for target.
+CMakeFiles/dijkstra.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstra.dir\build.make CMakeFiles/dijkstra.dir/clean
+.PHONY : CMakeFiles/dijkstra.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/kruskal.dir
+
+# All Build rule for target.
+CMakeFiles/kruskal.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kruskal.dir\build.make CMakeFiles/kruskal.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kruskal.dir\build.make CMakeFiles/kruskal.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target kruskal"
+.PHONY : CMakeFiles/kruskal.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/kruskal.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cliongongzuodian\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/kruskal.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cliongongzuodian\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/kruskal.dir/rule
+
+# Convenience name for target.
+kruskal: CMakeFiles/kruskal.dir/rule
+
+.PHONY : kruskal
+
+# clean rule for target.
+CMakeFiles/kruskal.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kruskal.dir\build.make CMakeFiles/kruskal.dir/clean
+.PHONY : CMakeFiles/kruskal.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/topsort.dir
+
+# All Build rule for target.
+CMakeFiles/topsort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\topsort.dir\build.make CMakeFiles/topsort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\topsort.dir\build.make CMakeFiles/topsort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target topsort"
+.PHONY : CMakeFiles/topsort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/topsort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cliongongzuodian\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/topsort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cliongongzuodian\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/topsort.dir/rule
+
+# Convenience name for target.
+topsort: CMakeFiles/topsort.dir/rule
+
+.PHONY : topsort
+
+# clean rule for target.
+CMakeFiles/topsort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\topsort.dir\build.make CMakeFiles/topsort.dir/clean
+.PHONY : CMakeFiles/topsort.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/cliongongzuodian.dir
+
+# All Build rule for target.
+CMakeFiles/cliongongzuodian.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliongongzuodian.dir\build.make CMakeFiles/cliongongzuodian.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliongongzuodian.dir\build.make CMakeFiles/cliongongzuodian.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=18,19,20,21,22,23,24,25,26,27,28,29,30 "Built target cliongongzuodian"
+.PHONY : CMakeFiles/cliongongzuodian.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cliongongzuodian.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cliongongzuodian\cmake-build-debug\CMakeFiles 13
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/cliongongzuodian.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cliongongzuodian\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/cliongongzuodian.dir/rule
+
+# Convenience name for target.
+cliongongzuodian: CMakeFiles/cliongongzuodian.dir/rule
+
+.PHONY : cliongongzuodian
+
+# clean rule for target.
+CMakeFiles/cliongongzuodian.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliongongzuodian.dir\build.make CMakeFiles/cliongongzuodian.dir/clean
+.PHONY : CMakeFiles/cliongongzuodian.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/WeedTest.dir
+
+# All Build rule for target.
+CMakeFiles/WeedTest.dir/all: CMakeFiles/cliongongzuodian.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeedTest.dir\build.make CMakeFiles/WeedTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeedTest.dir\build.make CMakeFiles/WeedTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17 "Built target WeedTest"
+.PHONY : CMakeFiles/WeedTest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/WeedTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cliongongzuodian\cmake-build-debug\CMakeFiles 22
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/WeedTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cliongongzuodian\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/WeedTest.dir/rule
+
+# Convenience name for target.
+WeedTest: CMakeFiles/WeedTest.dir/rule
+
+.PHONY : WeedTest
+
+# clean rule for target.
+CMakeFiles/WeedTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeedTest.dir\build.make CMakeFiles/WeedTest.dir/clean
+.PHONY : CMakeFiles/WeedTest.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

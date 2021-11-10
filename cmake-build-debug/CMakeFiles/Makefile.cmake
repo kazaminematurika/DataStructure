@@ -51,11 +51,15 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/cliongongzuodian.dir/DependInfo.cmake"
+  "CMakeFiles/prim.dir/DependInfo.cmake"
   "CMakeFiles/Test_1.dir/DependInfo.cmake"
-  "CMakeFiles/WeedTest.dir/DependInfo.cmake"
   "CMakeFiles/Test_2.dir/DependInfo.cmake"
   "CMakeFiles/Test_3.dir/DependInfo.cmake"
   "CMakeFiles/huffman.dir/DependInfo.cmake"
   "CMakeFiles/Test_4.dir/DependInfo.cmake"
+  "CMakeFiles/dijkstra.dir/DependInfo.cmake"
+  "CMakeFiles/kruskal.dir/DependInfo.cmake"
+  "CMakeFiles/topsort.dir/DependInfo.cmake"
+  "CMakeFiles/cliongongzuodian.dir/DependInfo.cmake"
+  "CMakeFiles/WeedTest.dir/DependInfo.cmake"
   )
