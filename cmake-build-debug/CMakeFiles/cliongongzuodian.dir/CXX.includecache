@@ -6,11 +6,5 @@
 
 #IncludeRegexTransform: 
 
-C:/cliongongzuodian/Weed10_H_Test/graph.cpp
-../Weed10_H_Test/graph.h
-C:/cliongongzuodian/Weed10_H_Test/graph.h
-
-C:/cliongongzuodian/Weed10_H_Test/graph.h
-iostream
--
+C:/cliongongzuodian/Weed2_H_Test/arraylist_Test2.cpp
 

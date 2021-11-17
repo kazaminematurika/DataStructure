@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/WeedTest.dir/Weed10_Test/main.cpp.obj"
+  "CMakeFiles/WeedTest.dir/Weed12_Test/main.cpp.obj"
   "CMakeFiles/WeedTest.dir/Weed2_Test/main.cpp.obj"
   "CMakeFiles/WeedTest.dir/Weed3_Test/main.cpp.obj"
   "CMakeFiles/WeedTest.dir/Weed4_Test/main.cpp.obj"

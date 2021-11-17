@@ -32,7 +32,8 @@
 ////    ElemType A[] = "ABD##E##CF#G###"; //以"#"补全空分支后的前序遍历序列
 ////        ElemType A[] = "ABD###C##";
 ////        ElemType A[] = "ABD##E##C#F##";
-//    ElemType A[] = "AB#CD##E##F#G##";
+////    ElemType A[] = "AB#CD##E##F#G##";
+////    ElemType A[] = "";
 //
 //    InitBTree(root); //初始化空二叉树
 //    CreateBTree_Pre(root, A); //以前序遍历序列建立二叉树

@@ -1,0 +1,3 @@
+"C:\clionanzhuangchu\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\IndexSearch.dir/objects.a
+C:\gccanfangdian\bin\ar.exe cr CMakeFiles\IndexSearch.dir/objects.a @CMakeFiles\IndexSearch.dir\objects1.rsp
+C:\gccanfangdian\bin\g++.exe  -Wall -fexec-charset=GBK -g -Wl,--whole-archive CMakeFiles\IndexSearch.dir/objects.a -Wl,--no-whole-archive -o IndexSearch.exe -Wl,--out-implib,libIndexSearch.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\IndexSearch.dir\linklibs.rsp

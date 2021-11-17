@@ -2,7 +2,7 @@
 // Created by Kazamine_Setueka on 2021/9/8.
 //
 
-#include "../Weed2_H_Test/arraylist.h"
+#include "../Weed2_H_Test/arraylist_Test2.h"
 
 //int main()
 //{
