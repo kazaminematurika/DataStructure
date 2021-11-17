@@ -116,3 +116,40 @@ int BinarySearch(SqList L, ElemType item)
     } //断点②，观察下次查找区间
     return 0;
 }
+
+bool ListInsert_Binary(SqList &L, ElemType item){
+    int i;
+    if (L.length >= MaxSize) {
+        cout << "顺序表满，插入失败！" << endl;
+        return false;
+    }
+
+    int index;//需要插入元素
+
+    int low = 0, high = L.length - 1, mid;
+    while (low <= high) {
+        mid = (low + high) / 2;
+        if (item == L.data[mid]){ //查找成功。断点①，观察本次查找区间
+            index = mid + 1;
+            break;
+        }
+        else if (item < L.data[mid])
+            high = mid - 1; //在左半子区间查找
+        else
+            low = mid + 1; //在右半子区间查找
+    } //断点②，观察下次查找区间
+
+    //找不到插入元素在顺序表中插入的位置
+    if (low > high){
+        index = low;
+    }
+
+    //将在插入元素后的元素从列表的每一个位置往后面移动
+    for (int j = L.length - 1; j >= index; j--) {
+        L.data[j + 1] = L.data[j];
+    }
+    L.data[index] = item;
+    L.length++;
+
+    return true;
+}

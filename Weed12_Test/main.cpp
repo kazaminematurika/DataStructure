@@ -13,10 +13,12 @@ int main()
         ListInsert(my_list, i + 1, Array[i]);
     TraverseList(my_list);
 
-    int pos = BinarySearch(my_list, 50);
-    if (pos == 0)
-        cout << "查找失败。" << endl;
-    else
-        cout << "查找的元素的逻辑位置为：" << pos << endl;
-    return 0;
+//    int pos = BinarySearch(my_list, 25);
+//    if (pos == 0)
+//        cout << "查找失败。" << endl;
+//    else
+//        cout << "查找的元素的逻辑位置为：" << pos << endl;
+//    return 0;
+    ListInsert_Binary(my_list, 100);
+    TraverseList(my_list);
 }

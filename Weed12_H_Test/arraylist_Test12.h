@@ -46,3 +46,6 @@ bool ListInsert_order(SqList &L, ElemType item);
 
 //有序表中折半查找
 int BinarySearch(SqList L, ElemType item);
+
+//折半查找插入新元素使得插入后仍然有序
+bool ListInsert_Binary(SqList &L, ElemType item);
