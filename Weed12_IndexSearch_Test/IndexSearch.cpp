@@ -21,7 +21,7 @@ int Idex_Search(int L[], int n, IdexType I[], int m, int item)
     cout<<"第一步，在索引表折半查找"<<item<<"："<<endl;
     while(low<=high){    //在索引表折半查找，分块位置为mid或low
         mid=(low+high)/2;
-        cout<<"        在["<<low<<"--"<<high<<"]之间查找，与"<<I[mid].maxkey<<"比较"<<endl;
+        cout<<"在["<<low<<"--"<<high<<"]之间查找，与"<<I[mid].maxkey<<"比较"<<endl;
         if(I[mid].maxkey==item){ //如果item等于索引表当前中间位置的最大关键字
             //则直接通过该索引表项得到item在主表相应分块的开始位置
             start=I[mid].startpos;

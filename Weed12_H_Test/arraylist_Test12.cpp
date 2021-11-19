@@ -129,7 +129,7 @@ bool ListInsert_Binary(SqList &L, ElemType item){
     int low = 0, high = L.length - 1, mid;
     while (low <= high) {
         mid = (low + high) / 2;
-        if (item == L.data[mid]){ //查找成功。断点①，观察本次查找区间
+        if (item == L.data[mid]){
             index = mid + 1;
             break;
         }
@@ -137,7 +137,7 @@ bool ListInsert_Binary(SqList &L, ElemType item){
             high = mid - 1; //在左半子区间查找
         else
             low = mid + 1; //在右半子区间查找
-    } //断点②，观察下次查找区间
+    }
 
     //找不到插入元素在顺序表中插入的位置
     if (low > high){
