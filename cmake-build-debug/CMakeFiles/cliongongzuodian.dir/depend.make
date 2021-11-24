@@ -4,7 +4,9 @@
 CMakeFiles/cliongongzuodian.dir/Weed10_H_Test/graph.cpp.obj: ../Weed10_H_Test/graph.cpp
 
 CMakeFiles/cliongongzuodian.dir/Weed12_H_Test/arraylist_Test12.cpp.obj: ../Weed12_H_Test/arraylist_Test12.cpp
-CMakeFiles/cliongongzuodian.dir/Weed12_H_Test/arraylist_Test12.cpp.obj: ../Weed12_H_Test/arraylist_Test12.h
+
+CMakeFiles/cliongongzuodian.dir/Weed13_H_Test/BiTree13.cpp.obj: ../Weed13_H_Test/BiTree13.cpp
+CMakeFiles/cliongongzuodian.dir/Weed13_H_Test/BiTree13.cpp.obj: ../Weed13_H_Test/BiTree13.h
 
 CMakeFiles/cliongongzuodian.dir/Weed2_H_Test/arraylist_Test2.cpp.obj: ../Weed2_H_Test/arraylist_Test2.cpp
 

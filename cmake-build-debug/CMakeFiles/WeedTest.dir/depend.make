@@ -3,8 +3,10 @@
 
 CMakeFiles/WeedTest.dir/Weed10_Test/main.cpp.obj: ../Weed10_Test/main.cpp
 
-CMakeFiles/WeedTest.dir/Weed12_Test/main.cpp.obj: ../Weed12_H_Test/arraylist_Test12.h
 CMakeFiles/WeedTest.dir/Weed12_Test/main.cpp.obj: ../Weed12_Test/main.cpp
+
+CMakeFiles/WeedTest.dir/Weed13_Test/main.cpp.obj: ../Weed13_H_Test/BiTree13.h
+CMakeFiles/WeedTest.dir/Weed13_Test/main.cpp.obj: ../Weed13_Test/main.cpp
 
 CMakeFiles/WeedTest.dir/Weed2_Test/main.cpp.obj: ../Weed2_H_Test/arraylist_Test2.h
 CMakeFiles/WeedTest.dir/Weed2_Test/main.cpp.obj: ../Weed2_Test/main.cpp

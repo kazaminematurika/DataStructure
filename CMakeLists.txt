@@ -34,7 +34,8 @@ add_library(cliongongzuodian STATIC
         Weed9_H_Test/Thread.cpp
         Weed10_H_Test/graph.cpp
         #十一周的已在上面生成add_executable
-        Weed12_H_Test/arraylist_Test12.cpp)
+        Weed12_H_Test/arraylist_Test12.cpp
+        Weed13_H_Test/BiTree13.cpp)
 target_include_directories(cliongongzuodian
         PUBLIC
         ${PROJECT_SOURCE_DIR}/include
@@ -51,6 +52,7 @@ add_executable(WeedTest
         Weed10_Test/main.cpp
         #十一周的已在上面生成add_executable
         Weed12_Test/main.cpp
+        Weed13_Test/main.cpp
         )
 #链接可执行文件和静态库
 #target_link_libraries(WeedTest2

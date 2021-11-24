@@ -527,6 +527,60 @@ Weed12_Test/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeedTest.dir\build.make CMakeFiles/WeedTest.dir/Weed12_Test/main.cpp.s
 .PHONY : Weed12_Test/main.cpp.s
 
+Weed13_H_Test/BiTree13.obj: Weed13_H_Test/BiTree13.cpp.obj
+
+.PHONY : Weed13_H_Test/BiTree13.obj
+
+# target to build an object file
+Weed13_H_Test/BiTree13.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliongongzuodian.dir\build.make CMakeFiles/cliongongzuodian.dir/Weed13_H_Test/BiTree13.cpp.obj
+.PHONY : Weed13_H_Test/BiTree13.cpp.obj
+
+Weed13_H_Test/BiTree13.i: Weed13_H_Test/BiTree13.cpp.i
+
+.PHONY : Weed13_H_Test/BiTree13.i
+
+# target to preprocess a source file
+Weed13_H_Test/BiTree13.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliongongzuodian.dir\build.make CMakeFiles/cliongongzuodian.dir/Weed13_H_Test/BiTree13.cpp.i
+.PHONY : Weed13_H_Test/BiTree13.cpp.i
+
+Weed13_H_Test/BiTree13.s: Weed13_H_Test/BiTree13.cpp.s
+
+.PHONY : Weed13_H_Test/BiTree13.s
+
+# target to generate assembly for a file
+Weed13_H_Test/BiTree13.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliongongzuodian.dir\build.make CMakeFiles/cliongongzuodian.dir/Weed13_H_Test/BiTree13.cpp.s
+.PHONY : Weed13_H_Test/BiTree13.cpp.s
+
+Weed13_Test/main.obj: Weed13_Test/main.cpp.obj
+
+.PHONY : Weed13_Test/main.obj
+
+# target to build an object file
+Weed13_Test/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeedTest.dir\build.make CMakeFiles/WeedTest.dir/Weed13_Test/main.cpp.obj
+.PHONY : Weed13_Test/main.cpp.obj
+
+Weed13_Test/main.i: Weed13_Test/main.cpp.i
+
+.PHONY : Weed13_Test/main.i
+
+# target to preprocess a source file
+Weed13_Test/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeedTest.dir\build.make CMakeFiles/WeedTest.dir/Weed13_Test/main.cpp.i
+.PHONY : Weed13_Test/main.cpp.i
+
+Weed13_Test/main.s: Weed13_Test/main.cpp.s
+
+.PHONY : Weed13_Test/main.s
+
+# target to generate assembly for a file
+Weed13_Test/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeedTest.dir\build.make CMakeFiles/WeedTest.dir/Weed13_Test/main.cpp.s
+.PHONY : Weed13_Test/main.cpp.s
+
 Weed1_Test/Test_1.obj: Weed1_Test/Test_1.cpp.obj
 
 .PHONY : Weed1_Test/Test_1.obj
@@ -1195,6 +1249,12 @@ help:
 	@echo ... Weed12_Test/main.obj
 	@echo ... Weed12_Test/main.i
 	@echo ... Weed12_Test/main.s
+	@echo ... Weed13_H_Test/BiTree13.obj
+	@echo ... Weed13_H_Test/BiTree13.i
+	@echo ... Weed13_H_Test/BiTree13.s
+	@echo ... Weed13_Test/main.obj
+	@echo ... Weed13_Test/main.i
+	@echo ... Weed13_Test/main.s
 	@echo ... Weed1_Test/Test_1.obj
 	@echo ... Weed1_Test/Test_1.i
 	@echo ... Weed1_Test/Test_1.s

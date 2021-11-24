@@ -603,6 +603,15 @@
 		<Unit filename="C:/cliongongzuodian/Weed12_Test/main.cpp">
 			<Option target="WeedTest"/>
 		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed13_H_Test/BiTree13.cpp">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed13_H_Test/BiTree13.h">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed13_Test/main.cpp">
+			<Option target="WeedTest"/>
+		</Unit>
 		<Unit filename="C:/cliongongzuodian/Weed1_Test/Test_1.cpp">
 			<Option target="Test_1"/>
 		</Unit>
