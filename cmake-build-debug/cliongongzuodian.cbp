@@ -612,6 +612,27 @@
 		<Unit filename="C:/cliongongzuodian/Weed13_Test/main.cpp">
 			<Option target="WeedTest"/>
 		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed14_H_Test/ArrayHash.cpp">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed14_H_Test/ArrayHash.h">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed14_H_Test/Hash.cpp">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed14_H_Test/Hash.h">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed14_H_Test/LinkHash.cpp">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed14_H_Test/LinkHash.h">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed14_Test/main.cpp">
+			<Option target="WeedTest"/>
+		</Unit>
 		<Unit filename="C:/cliongongzuodian/Weed1_Test/Test_1.cpp">
 			<Option target="Test_1"/>
 		</Unit>

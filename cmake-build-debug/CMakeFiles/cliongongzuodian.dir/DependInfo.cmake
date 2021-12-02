@@ -1,3 +1,7 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
   "CXX"
@@ -7,6 +11,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/cliongongzuodian/Weed10_H_Test/graph.cpp" "C:/cliongongzuodian/cmake-build-debug/CMakeFiles/cliongongzuodian.dir/Weed10_H_Test/graph.cpp.obj"
   "C:/cliongongzuodian/Weed12_H_Test/arraylist_Test12.cpp" "C:/cliongongzuodian/cmake-build-debug/CMakeFiles/cliongongzuodian.dir/Weed12_H_Test/arraylist_Test12.cpp.obj"
   "C:/cliongongzuodian/Weed13_H_Test/BiTree13.cpp" "C:/cliongongzuodian/cmake-build-debug/CMakeFiles/cliongongzuodian.dir/Weed13_H_Test/BiTree13.cpp.obj"
+  "C:/cliongongzuodian/Weed14_H_Test/ArrayHash.cpp" "C:/cliongongzuodian/cmake-build-debug/CMakeFiles/cliongongzuodian.dir/Weed14_H_Test/ArrayHash.cpp.obj"
+  "C:/cliongongzuodian/Weed14_H_Test/Hash.cpp" "C:/cliongongzuodian/cmake-build-debug/CMakeFiles/cliongongzuodian.dir/Weed14_H_Test/Hash.cpp.obj"
+  "C:/cliongongzuodian/Weed14_H_Test/LinkHash.cpp" "C:/cliongongzuodian/cmake-build-debug/CMakeFiles/cliongongzuodian.dir/Weed14_H_Test/LinkHash.cpp.obj"
   "C:/cliongongzuodian/Weed2_H_Test/arraylist_Test2.cpp" "C:/cliongongzuodian/cmake-build-debug/CMakeFiles/cliongongzuodian.dir/Weed2_H_Test/arraylist_Test2.cpp.obj"
   "C:/cliongongzuodian/Weed3_H_Test/linkedlist.cpp" "C:/cliongongzuodian/cmake-build-debug/CMakeFiles/cliongongzuodian.dir/Weed3_H_Test/linkedlist.cpp.obj"
   "C:/cliongongzuodian/Weed4_H_Test/LinkStack.cpp" "C:/cliongongzuodian/cmake-build-debug/CMakeFiles/cliongongzuodian.dir/Weed4_H_Test/LinkStack.cpp.obj"
@@ -24,6 +31,10 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
   )
 
 # Targets to which this target links.
