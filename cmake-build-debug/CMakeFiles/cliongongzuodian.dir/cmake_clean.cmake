@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cliongongzuodian.dir/Weed14_H_Test/ArrayHash.cpp.obj"
   "CMakeFiles/cliongongzuodian.dir/Weed14_H_Test/Hash.cpp.obj"
   "CMakeFiles/cliongongzuodian.dir/Weed14_H_Test/LinkHash.cpp.obj"
+  "CMakeFiles/cliongongzuodian.dir/Weed15_H_Test1_1/ArrayList.cpp.obj"
   "CMakeFiles/cliongongzuodian.dir/Weed2_H_Test/arraylist_Test2.cpp.obj"
   "CMakeFiles/cliongongzuodian.dir/Weed3_H_Test/linkedlist.cpp.obj"
   "CMakeFiles/cliongongzuodian.dir/Weed4_H_Test/LinkStack.cpp.obj"

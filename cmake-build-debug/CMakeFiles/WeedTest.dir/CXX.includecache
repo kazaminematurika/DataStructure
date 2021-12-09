@@ -6,53 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/cliongongzuodian/Weed10_Test/main.cpp
+C:/cliongongzuodian/Weed15_H_Test1_1/ArrayList.cpp
+../Weed15_H_Test1_1/ArrayList.h
+C:/cliongongzuodian/Weed15_H_Test1_1/ArrayList.h
 
-C:/cliongongzuodian/Weed12_Test/main.cpp
-
-C:/cliongongzuodian/Weed13_Test/main.cpp
-
-C:/cliongongzuodian/Weed14_H_Test/ArrayHash.h
-../Weed14_H_Test/Hash.h
-C:/cliongongzuodian/Weed14_H_Test/Hash.h
-
-C:/cliongongzuodian/Weed14_H_Test/Hash.h
+C:/cliongongzuodian/Weed15_H_Test1_1/ArrayList.h
 iostream
 -
 
-C:/cliongongzuodian/Weed14_H_Test/LinkHash.h
-../Weed14_H_Test/Hash.h
-C:/cliongongzuodian/Weed14_H_Test/Hash.h
-
-C:/cliongongzuodian/Weed14_Test/main.cpp
-../Weed14_H_Test/ArrayHash.h
-C:/cliongongzuodian/Weed14_H_Test/ArrayHash.h
-../Weed14_H_Test/LinkHash.h
-C:/cliongongzuodian/Weed14_H_Test/LinkHash.h
-
-C:/cliongongzuodian/Weed2_H_Test/arraylist_Test2.h
-
-C:/cliongongzuodian/Weed2_Test/main.cpp
-../Weed2_H_Test/arraylist_Test2.h
-C:/cliongongzuodian/Weed2_H_Test/arraylist_Test2.h
-
-C:/cliongongzuodian/Weed3_Test/main.cpp
-
-C:/cliongongzuodian/Weed4_H_Test/LinkStack.h
-
-C:/cliongongzuodian/Weed4_H_Test/SqStack.h
-
-C:/cliongongzuodian/Weed4_Test/main.cpp
-../Weed4_H_Test/LinkStack.h
-C:/cliongongzuodian/Weed4_H_Test/LinkStack.h
-../Weed4_H_Test/SqStack.h
-C:/cliongongzuodian/Weed4_H_Test/SqStack.h
-
-C:/cliongongzuodian/Weed5_Test/main.cpp
-
-C:/cliongongzuodian/Weed7_Test/main.cpp
-
-C:/cliongongzuodian/Weed8_Test/main.cpp
-
-C:/cliongongzuodian/Weed9_Test/main.cpp
+C:/cliongongzuodian/Weed15_Test1_1/main.cpp
+../Weed15_H_Test1_1/ArrayList.cpp
+C:/cliongongzuodian/Weed15_H_Test1_1/ArrayList.cpp
 

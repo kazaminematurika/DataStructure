@@ -467,6 +467,50 @@
 					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Sort">
+				<Option output="C:/cliongongzuodian/cmake-build-debug/Sort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sort"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sort/fast">
+				<Option output="C:/cliongongzuodian/cmake-build-debug/Sort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/gccanfangdian/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sort/fast"/>
+					<CompileFile command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gccanfangdian/bin/mingw32-make.exe -f &quot;C:/cliongongzuodian/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="cliongongzuodian">
 				<Option output="C:/cliongongzuodian/cmake-build-debug/libcliongongzuodian.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/cliongongzuodian/cmake-build-debug"/>
@@ -632,6 +676,18 @@
 		</Unit>
 		<Unit filename="C:/cliongongzuodian/Weed14_Test/main.cpp">
 			<Option target="WeedTest"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed15_H_Test1_1/ArrayList.cpp">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed15_H_Test1_1/ArrayList.h">
+			<Option target="cliongongzuodian"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed15_Test1_1/main.cpp">
+			<Option target="WeedTest"/>
+		</Unit>
+		<Unit filename="C:/cliongongzuodian/Weed15_Test1_2/Sort.cpp">
+			<Option target="Sort"/>
 		</Unit>
 		<Unit filename="C:/cliongongzuodian/Weed1_Test/Test_1.cpp">
 			<Option target="Test_1"/>

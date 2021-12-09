@@ -1,16 +1,23 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/cliongongzuodian/Weed2_H_Test/arraylist.cpp" "C:/cliongongzuodian/cmake-build-debug/CMakeFiles/arraylist.dir/Weed2_H_Test/arraylist.cpp.obj"
+  "C:/cliongongzuodian/Weed15_Test1_1/ArrayList.cpp" "C:/cliongongzuodian/cmake-build-debug/CMakeFiles/arraylist.dir/Weed15_Test1_1/ArrayList.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../Weed2_H_Test"
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
   )
 
 # Targets to which this target links.

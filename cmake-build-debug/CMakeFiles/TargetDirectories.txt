@@ -9,6 +9,7 @@ C:/cliongongzuodian/cmake-build-debug/CMakeFiles/kruskal.dir
 C:/cliongongzuodian/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/cliongongzuodian/cmake-build-debug/CMakeFiles/topsort.dir
 C:/cliongongzuodian/cmake-build-debug/CMakeFiles/IndexSearch.dir
+C:/cliongongzuodian/cmake-build-debug/CMakeFiles/Sort.dir
 C:/cliongongzuodian/cmake-build-debug/CMakeFiles/cliongongzuodian.dir
 C:/cliongongzuodian/cmake-build-debug/CMakeFiles/WeedTest.dir
 C:/cliongongzuodian/cmake-build-debug/CMakeFiles/rebuild_cache.dir

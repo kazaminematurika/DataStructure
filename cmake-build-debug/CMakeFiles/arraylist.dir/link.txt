@@ -1,3 +1,3 @@
-"C:\clionanzhuangchu\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\arraylist.dir/objects.a
-C:\gccanfangdian\bin\ar.exe cr CMakeFiles\arraylist.dir/objects.a @CMakeFiles\arraylist.dir\objects1.rsp
-C:\gccanfangdian\bin\g++.exe  -Wall -fexec-charset=GBK -g -Wl,--whole-archive CMakeFiles\arraylist.dir/objects.a -Wl,--no-whole-archive -o arraylist.exe -Wl,--out-implib,libarraylist.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\arraylist.dir\linklibs.rsp
+"C:\clionanzhuangchu\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ArrayList.dir/objects.a
+C:\gccanfangdian\bin\ar.exe qc CMakeFiles\ArrayList.dir/objects.a @CMakeFiles\ArrayList.dir\objects1.rsp
+C:\gccanfangdian\bin\g++.exe  -Wall -fexec-charset=GBK -g -Wl,--whole-archive CMakeFiles\ArrayList.dir/objects.a -Wl,--no-whole-archive -o ArrayList.exe -Wl,--out-implib,libArrayList.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ArrayList.dir\linklibs.rsp

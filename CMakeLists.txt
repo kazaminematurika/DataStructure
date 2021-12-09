@@ -12,6 +12,7 @@ add_executable(kruskal Weed11_Test/kruskal.cpp)
 add_executable(prim Weed11_Test/prim.cpp)
 add_executable(topsort Weed11_Test/topsort.cpp)
 add_executable(IndexSearch Weed12_IndexSearch_Test/IndexSearch.cpp)
+add_executable(Sort Weed15_Test1_2/Sort.cpp)
 #add_executable(arraylist Weed2_H_Test/arraylist.cpp)
 #add_executable(main Weed2_Test/main.cpp)
 #include_directories(C:/cliongongzuodian/Weed2_H_Test)
@@ -38,7 +39,8 @@ add_library(cliongongzuodian STATIC
         Weed13_H_Test/BiTree13.cpp
         Weed14_H_Test/ArrayHash.cpp
         Weed14_H_Test/Hash.cpp
-        Weed14_H_Test/LinkHash.cpp )
+        Weed14_H_Test/LinkHash.cpp
+        Weed15_H_Test1_1/ArrayList.cpp )
 target_include_directories(cliongongzuodian
         PUBLIC
         ${PROJECT_SOURCE_DIR}/include
@@ -57,6 +59,7 @@ add_executable(WeedTest
         Weed12_Test/main.cpp
         Weed13_Test/main.cpp
         Weed14_Test/main.cpp
+        Weed15_Test1_1/main.cpp
         )
 #链接可执行文件和静态库
 #target_link_libraries(WeedTest2
@@ -68,4 +71,3 @@ target_link_libraries(WeedTest
         PRIVATE
         cliongongzuodian
         )
-
