@@ -1,0 +1,133 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/gccanfangdian/lib/gcc/x86_64-w64-mingw32/9.2.0/include",
+						"C:/gccanfangdian/include",
+						"C:/gccanfangdian/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed",
+						"C:/gccanfangdian/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/gccanfangdian/lib/gcc/x86_64-w64-mingw32/9.2.0",
+						"C:/gccanfangdian/lib/gcc",
+						"C:/gccanfangdian/x86_64-w64-mingw32/lib",
+						"C:/gccanfangdian/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "C:/gccanfangdian/bin/gcc.exe",
+				"version" : "9.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/gccanfangdian/lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++",
+						"C:/gccanfangdian/lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32",
+						"C:/gccanfangdian/lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward",
+						"C:/gccanfangdian/lib/gcc/x86_64-w64-mingw32/9.2.0/include",
+						"C:/gccanfangdian/include",
+						"C:/gccanfangdian/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed",
+						"C:/gccanfangdian/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/gccanfangdian/lib/gcc/x86_64-w64-mingw32/9.2.0",
+						"C:/gccanfangdian/lib/gcc",
+						"C:/gccanfangdian/x86_64-w64-mingw32/lib",
+						"C:/gccanfangdian/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"C:/gccanfangdian/lib/gcc/x86_64-w64-mingw32/9.2.0/libstdc++.a",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "C:/gccanfangdian/bin/g++.exe",
+				"version" : "9.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "C:/gccanfangdian/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
