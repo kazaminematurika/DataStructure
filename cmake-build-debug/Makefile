@@ -259,6 +259,19 @@ Sort/fast:
 .PHONY : Sort/fast
 
 #=============================================================================
+# Target rules for targets named Sort2
+
+# Build rule for target.
+Sort2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Sort2
+.PHONY : Sort2
+
+# fast build rule for target.
+Sort2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort2.dir\build.make CMakeFiles/Sort2.dir/build
+.PHONY : Sort2/fast
+
+#=============================================================================
 # Target rules for targets named cliongongzuodian
 
 # Build rule for target.
@@ -715,6 +728,30 @@ Weed15_Test1_2/Sort.s: Weed15_Test1_2/Sort.cpp.s
 Weed15_Test1_2/Sort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort.dir\build.make CMakeFiles/Sort.dir/Weed15_Test1_2/Sort.cpp.s
 .PHONY : Weed15_Test1_2/Sort.cpp.s
+
+Weed16_Test/Sort2.obj: Weed16_Test/Sort2.cpp.obj
+.PHONY : Weed16_Test/Sort2.obj
+
+# target to build an object file
+Weed16_Test/Sort2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort2.dir\build.make CMakeFiles/Sort2.dir/Weed16_Test/Sort2.cpp.obj
+.PHONY : Weed16_Test/Sort2.cpp.obj
+
+Weed16_Test/Sort2.i: Weed16_Test/Sort2.cpp.i
+.PHONY : Weed16_Test/Sort2.i
+
+# target to preprocess a source file
+Weed16_Test/Sort2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort2.dir\build.make CMakeFiles/Sort2.dir/Weed16_Test/Sort2.cpp.i
+.PHONY : Weed16_Test/Sort2.cpp.i
+
+Weed16_Test/Sort2.s: Weed16_Test/Sort2.cpp.s
+.PHONY : Weed16_Test/Sort2.s
+
+# target to generate assembly for a file
+Weed16_Test/Sort2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort2.dir\build.make CMakeFiles/Sort2.dir/Weed16_Test/Sort2.cpp.s
+.PHONY : Weed16_Test/Sort2.cpp.s
 
 Weed1_Test/Test_1.obj: Weed1_Test/Test_1.cpp.obj
 .PHONY : Weed1_Test/Test_1.obj
@@ -1278,6 +1315,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... IndexSearch
 	@echo ... Sort
+	@echo ... Sort2
 	@echo ... Test_1
 	@echo ... Test_2
 	@echo ... Test_3
@@ -1343,6 +1381,9 @@ help:
 	@echo ... Weed15_Test1_2/Sort.obj
 	@echo ... Weed15_Test1_2/Sort.i
 	@echo ... Weed15_Test1_2/Sort.s
+	@echo ... Weed16_Test/Sort2.obj
+	@echo ... Weed16_Test/Sort2.i
+	@echo ... Weed16_Test/Sort2.s
 	@echo ... Weed1_Test/Test_1.obj
 	@echo ... Weed1_Test/Test_1.i
 	@echo ... Weed1_Test/Test_1.s

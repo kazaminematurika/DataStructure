@@ -13,6 +13,8 @@ add_executable(prim Weed11_Test/prim.cpp)
 add_executable(topsort Weed11_Test/topsort.cpp)
 add_executable(IndexSearch Weed12_IndexSearch_Test/IndexSearch.cpp)
 add_executable(Sort Weed15_Test1_2/Sort.cpp)
+add_executable(Sort2 Weed16_Test/Sort2.cpp)
+
 #add_executable(arraylist Weed2_H_Test/arraylist.cpp)
 #add_executable(main Weed2_Test/main.cpp)
 #include_directories(C:/cliongongzuodian/Weed2_H_Test)
@@ -71,3 +73,4 @@ target_link_libraries(WeedTest
         PRIVATE
         cliongongzuodian
         )
+

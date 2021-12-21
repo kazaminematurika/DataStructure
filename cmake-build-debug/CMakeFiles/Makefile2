@@ -73,6 +73,7 @@ all: CMakeFiles/kruskal.dir/all
 all: CMakeFiles/topsort.dir/all
 all: CMakeFiles/IndexSearch.dir/all
 all: CMakeFiles/Sort.dir/all
+all: CMakeFiles/Sort2.dir/all
 all: CMakeFiles/cliongongzuodian.dir/all
 all: CMakeFiles/WeedTest.dir/all
 .PHONY : all
@@ -93,6 +94,7 @@ clean: CMakeFiles/kruskal.dir/clean
 clean: CMakeFiles/topsort.dir/clean
 clean: CMakeFiles/IndexSearch.dir/clean
 clean: CMakeFiles/Sort.dir/clean
+clean: CMakeFiles/Sort2.dir/clean
 clean: CMakeFiles/cliongongzuodian.dir/clean
 clean: CMakeFiles/WeedTest.dir/clean
 .PHONY : clean
@@ -104,7 +106,7 @@ clean: CMakeFiles/WeedTest.dir/clean
 CMakeFiles/prim.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\prim.dir\build.make CMakeFiles/prim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\prim.dir\build.make CMakeFiles/prim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target prim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target prim"
 .PHONY : CMakeFiles/prim.dir/all
 
 # Build rule for subdir invocation for target.
@@ -130,7 +132,7 @@ CMakeFiles/prim.dir/clean:
 CMakeFiles/Test_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_1.dir\build.make CMakeFiles/Test_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_1.dir\build.make CMakeFiles/Test_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Test_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Test_1"
 .PHONY : CMakeFiles/Test_1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -156,7 +158,7 @@ CMakeFiles/Test_1.dir/clean:
 CMakeFiles/Test_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_2.dir\build.make CMakeFiles/Test_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_2.dir\build.make CMakeFiles/Test_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Test_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Test_2"
 .PHONY : CMakeFiles/Test_2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -182,7 +184,7 @@ CMakeFiles/Test_2.dir/clean:
 CMakeFiles/Test_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_3.dir\build.make CMakeFiles/Test_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_3.dir\build.make CMakeFiles/Test_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Test_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Test_3"
 .PHONY : CMakeFiles/Test_3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -208,7 +210,7 @@ CMakeFiles/Test_3.dir/clean:
 CMakeFiles/huffman.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\huffman.dir\build.make CMakeFiles/huffman.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\huffman.dir\build.make CMakeFiles/huffman.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target huffman"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target huffman"
 .PHONY : CMakeFiles/huffman.dir/all
 
 # Build rule for subdir invocation for target.
@@ -234,7 +236,7 @@ CMakeFiles/huffman.dir/clean:
 CMakeFiles/Test_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_4.dir\build.make CMakeFiles/Test_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_4.dir\build.make CMakeFiles/Test_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Test_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target Test_4"
 .PHONY : CMakeFiles/Test_4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -260,7 +262,7 @@ CMakeFiles/Test_4.dir/clean:
 CMakeFiles/dijkstra.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstra.dir\build.make CMakeFiles/dijkstra.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstra.dir\build.make CMakeFiles/dijkstra.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target dijkstra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target dijkstra"
 .PHONY : CMakeFiles/dijkstra.dir/all
 
 # Build rule for subdir invocation for target.
@@ -286,7 +288,7 @@ CMakeFiles/dijkstra.dir/clean:
 CMakeFiles/kruskal.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kruskal.dir\build.make CMakeFiles/kruskal.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kruskal.dir\build.make CMakeFiles/kruskal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target kruskal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target kruskal"
 .PHONY : CMakeFiles/kruskal.dir/all
 
 # Build rule for subdir invocation for target.
@@ -312,7 +314,7 @@ CMakeFiles/kruskal.dir/clean:
 CMakeFiles/topsort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\topsort.dir\build.make CMakeFiles/topsort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\topsort.dir\build.make CMakeFiles/topsort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target topsort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target topsort"
 .PHONY : CMakeFiles/topsort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -384,13 +386,39 @@ CMakeFiles/Sort.dir/clean:
 .PHONY : CMakeFiles/Sort.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Sort2.dir
+
+# All Build rule for target.
+CMakeFiles/Sort2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort2.dir\build.make CMakeFiles/Sort2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort2.dir\build.make CMakeFiles/Sort2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Sort2"
+.PHONY : CMakeFiles/Sort2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Sort2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cliongongzuodian\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Sort2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cliongongzuodian\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Sort2.dir/rule
+
+# Convenience name for target.
+Sort2: CMakeFiles/Sort2.dir/rule
+.PHONY : Sort2
+
+# clean rule for target.
+CMakeFiles/Sort2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort2.dir\build.make CMakeFiles/Sort2.dir/clean
+.PHONY : CMakeFiles/Sort2.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/cliongongzuodian.dir
 
 # All Build rule for target.
 CMakeFiles/cliongongzuodian.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliongongzuodian.dir\build.make CMakeFiles/cliongongzuodian.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliongongzuodian.dir\build.make CMakeFiles/cliongongzuodian.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44 "Built target cliongongzuodian"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46 "Built target cliongongzuodian"
 .PHONY : CMakeFiles/cliongongzuodian.dir/all
 
 # Build rule for subdir invocation for target.
@@ -416,7 +444,7 @@ CMakeFiles/cliongongzuodian.dir/clean:
 CMakeFiles/WeedTest.dir/all: CMakeFiles/cliongongzuodian.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeedTest.dir\build.make CMakeFiles/WeedTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeedTest.dir\build.make CMakeFiles/WeedTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21,22,23,24,25 "Built target WeedTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cliongongzuodian\cmake-build-debug\CMakeFiles --progress-num=15,16,17,18,19,20,21,22,23,24,25,26,27 "Built target WeedTest"
 .PHONY : CMakeFiles/WeedTest.dir/all
 
 # Build rule for subdir invocation for target.
